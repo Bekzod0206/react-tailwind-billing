@@ -1,0 +1,5 @@
+export {default as logo} from './logo.svg'
+export {default as menu} from './menu.svg'
+export {default as cancel} from './cancel.svg'
+export {default as discount} from './discount.svg'
+export {default as robot} from './robot.png'
