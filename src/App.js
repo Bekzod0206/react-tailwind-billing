@@ -1,4 +1,4 @@
-import { Contract, Home, Navbar, Statistics } from "./components"
+import { Billing, Business, Clients, Contract, CTA, Home, Navbar, Statistics, Testimonials } from "./components"
 import { styles } from "./utils/style"
 
 function App() {
@@ -22,6 +22,12 @@ function App() {
         <div className={`${styles.container}`}>
           <Statistics />
           <Contract />
+          <Billing />
+          <Business />
+          <Testimonials />
+          <Clients />
+          <CTA />
+          {/* Footer */}
         </div>
       </div>
       
