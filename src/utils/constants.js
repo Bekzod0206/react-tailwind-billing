@@ -1,4 +1,4 @@
-import { shield, star, transaction } from "../assets"
+import { airbnb, binance, coinbase, dropbox, facebook, instagram, linkedIn, logo, shield, star, transaction, twitter } from "../assets"
 
 export const navigationLinks = [
   {
@@ -6,12 +6,12 @@ export const navigationLinks = [
     title: 'Homepage'
   },
   {
-    id: 'features',
-    title: 'Features'
-  },
-  {
     id: 'product',
     title: 'Product'
+  },
+  {
+    id: 'features',
+    title: 'Features'
   },
   {
     id: 'clients',
@@ -76,5 +76,105 @@ export const feedBack = [
     content: 'It is usually people in the money bussines, finance and international trade that are really rich',
     name: 'Kenn Gallager',
     title: 'Founder & Leader'
+  }
+]
+
+export const clients = [
+  {
+    id: 'client-1',
+    logo: airbnb
+  },
+  {
+    id: 'client-2',
+    logo: binance
+  },
+  {
+    id: 'client-3',
+    logo: coinbase
+  },
+  {
+    id: 'client-4',
+    logo: dropbox
+  }
+]
+
+export const footerLinks = [
+  {
+    title: 'Society',
+    links: [
+      {
+        name: 'Help center',
+        link: 'https://www.hoobank.com/help-center/'
+      },
+      {
+        name: 'Parters',
+        link: 'https://www.hoobank.com/parters/'
+      },
+      {
+        name: 'Suggestions',
+        link: 'https://www.hoobank.com/suggestions/'
+      },
+      {
+        name: 'Blog',
+        link: 'https://www.hoobank.com/blog/'
+      },
+      {
+        name: 'News',
+        link: 'https://www.hoobank.com/newsletters/'
+      }
+    ]
+  },
+  {
+    title: 'Useful link',
+    links: [
+      {
+        name: 'Content',
+        link: 'htpps://www.sammi.ac/content/'
+      },
+      {
+        name: 'How it works?',
+        link: 'htpps://www.sammi.ac/how-it-works/'
+      },
+      {
+        name: 'Terms and services',
+        link: 'htpps://www.sammi.ac/terms-and-services/'
+      }
+    ]
+  },
+  {
+    title: 'Partners',
+    links: [
+      {
+        name: 'Our partner',
+        link: 'htpps://www.sammi.ac/our-partner'
+      },
+      {
+        name: 'Become a partner',
+        link: 'htpps://www.sammi.ac/become-a-partner'
+      }
+    ]
+  }
+]
+
+export const socialMedia = [
+  {
+    id: 'social-media-1',
+    icon: instagram,
+    link: 'https://www.instagram.com'
+  },
+  {
+    id: 'social-media-2',
+    icon: facebook,
+    link: 'https://www.facebook.com'
+  },
+  {
+    id: 'social-media-3',
+    icon: twitter,
+    link: 'https://www.twitter.com'
+  },
+  {
+    id: 'social-media-4',
+    icon: linkedIn,
+    link: 'https://www.linkedin.com'
   }
 ]

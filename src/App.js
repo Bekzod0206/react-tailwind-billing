@@ -1,4 +1,4 @@
-import { Billing, Business, Clients, Contract, CTA, Home, Navbar, Statistics, Testimonials } from "./components"
+import { Billing, Business, Clients, Contract, CTA, Footer, Home, Navbar, Statistics, Testimonials } from "./components"
 import { styles } from "./utils/style"
 
 function App() {
@@ -27,7 +27,7 @@ function App() {
           <Testimonials />
           <Clients />
           <CTA />
-          {/* Footer */}
+          <Footer />
         </div>
       </div>
       

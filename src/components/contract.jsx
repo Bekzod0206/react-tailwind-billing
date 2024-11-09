@@ -4,7 +4,7 @@ import Button from "./button"
 
 function Contract() {
   return (
-    <section className={layout.section}>
+    <section id="product" className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
           Find the most valueable contract <br className="sm:block hidden"/> in a few steps

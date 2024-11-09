@@ -3,7 +3,7 @@ import { layout, styles } from "../utils/style"
 
 function Billing() {
   return (
-    <section id="product" className={layout.sectionReverse}>
+    <section id="features" className={layout.sectionReverse}>
       <div className={layout.sectionImageReverse}>
         <img src={billing} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
 

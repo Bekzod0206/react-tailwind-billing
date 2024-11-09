@@ -34,7 +34,9 @@ function Navbar() {
             `}
             onClick={() => activeHandler(nav.id)}
           >
-            {nav.title}
+            <a href={`#${nav.id}`}>
+              {nav.title}
+            </a>
           </li>
         ))}
       </ul>
@@ -43,7 +45,7 @@ function Navbar() {
       <div className={'sm:hidden flex flex-1 justify-end items-center'}>
         <img src={toggleNav ? cancel : menu} alt="navbarIcon" className="h-[30px] w-[30px] object-contain" onClick={toggleHandler}/>
 
-        <div className={`${!toggleNav ? 'hidden' : 'flex'} p-6 absolute top-20 right-0 left-0 w-full sidebar bg-black-gradient`}>
+        <div className={`${!toggleNav ? 'hidden' : 'flex'} p-6 absolute top-20 right-0 left-0 w-full sidebar bg-black-gradient z-[99]`}>
         <ul className="list-none flex justify-center items-center flex-1">
           {navigationLinks.map((nav, idx) => (
             <li 
@@ -58,10 +60,13 @@ function Navbar() {
                 hover:text-lightWhite
                 transition-all
                 duration-500
+
               `}
               onClick={() => activeHandler(nav.id)}
             >
-              {nav.title}
+              <a href={`#${nav.id}`}>
+                {nav.title}
+              </a>
             </li>
           ))}
         </ul>
